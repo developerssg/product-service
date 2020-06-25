@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/v1/products")
 public class ProductResource {
 
-    private static final Logger LOG = LoggerFactory.getLogger(Product.class);
+    private static final Logger LOG = LoggerFactory.getLogger(ProductResource.class);
 
     @Autowired
     private ProductService productService;
